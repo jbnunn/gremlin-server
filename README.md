@@ -14,7 +14,7 @@ See the [TinkerGraph configuration section](http://tinkerpop.apache.org/docs/cur
 
 You can then start the container using:
 ```
-docker run -p 8182:8182 -v ~/:/graph_file -it --name gremlin gremlin-container
+docker run -p 8182:8182 -v ~/:/graph_file -it gremlin-container
 ```
 The server can be accessed on port 8182 and the graphson file will be saved in the home directory `~/`.
 Alternatively, you can pull the image from DockerHub [here](https://hub.docker.com/r/bricaud/gremlin-server/).
