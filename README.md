@@ -30,7 +30,7 @@ can be installed using:
 ```
 pip install gremlinpython==3.a.b
 ```
-where `a` and `b` are the sub-version number. It can be 3.2.4, 3.2.5, 3.2.6 or 3.3.0.
+where `a` and `b` are the sub-version number. It can be 3.2.4, 3.2.5, 3.2.6, 3.3.0, 3.3.3
 
 To run the demo (and make a minimal test), simply write in the console:
 ```
